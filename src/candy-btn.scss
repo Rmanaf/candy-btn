@@ -1,0 +1,16 @@
+@import "./candy-btn-base.sass";
+
+// candy-base
+@include candy-base();
+
+// candy-pink
+@include candy-set("pink" , white , #af64d4 , #e64390 , rgba(214, 0, 255, 0.25) , rgba(214, 0, 255, 0.17));
+
+// candy-ocean
+@include candy-set("ocean" , white  , #44ed7f , #103bff , rgba(0, 104, 255, 0.25) , rgba(0, 104, 255, 0.17));
+
+// candy-purple
+@include candy-set("purple" , white  , #00d3be , #e100ff , rgba(15, 115, 234, 0.25) , rgba(15, 115, 234, 0.17));
+
+// candy-sunset
+@include candy-set("sunset" , white  , #ffb227 , #ff58d5 , rgba(255, 89, 0, 0.25) , rgba(255, 89, 0, 0.17));
