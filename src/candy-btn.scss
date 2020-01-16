@@ -14,3 +14,9 @@
 
 // candy-sunset
 @include candy-set("sunset" , white  , #ffb227 , #ff58d5 , rgba(255, 89, 0, 0.25) , rgba(255, 89, 0, 0.17));
+
+// candy-green
+@include candy-set("green" , white  , #27ff4a  , #28a745  , rgba(0, 255, 24, 0.25) , rgba(0, 255, 24, 0.17));
+
+// candy-cream
+@include candy-set("cream" , white  , #ffc48a    , #ff5888   , rgba(255, 89, 0, 0.25) , rgba(255, 89, 0, 0.17));
