@@ -2,28 +2,38 @@
     .candy-btn
         background: #ccc
         color: black !important
-        text-shadow: 2px 2px 5px rgba(0,0,0,.8)
-        border-radius: 25px
+        text-shadow: 2px 2px 5px rgba(0,0,0,.6)
+        border-radius: 40px
         text-align: center
         padding: 8px 25px
         text-decoration: none
+        vertical-align: middle
         
         &:disabled
             background: #ccc !important
 
-        &.dark
+        &.candy-small
+            line-height: 15px
+
+        &.candy-medium
+            line-height: 30px
+
+        &.candy-large
+            line-height: 40px
+
+        &.candy-dark
             background: #333
             color: white !important
 
-            &.active:hover
+            &.candy-active:hover
                 color: white !important
             
-        &.active 
+        &.candy-active 
             transition: box-shadow .2s ease-out, transform .2s ease-out, text-shadow .2s ease-out .1s
             &:hover
                 text-decoration: none
                 transform: translate(0,-3px)
-                text-shadow: 2px 2px 8px rgba(0,0,0,.8)
+                text-shadow: 2px 2px 8px rgba(0,0,0,.6)
         
 @mixin candy-set($name , $text-color , $first-color , $second-color , $shadow-color , $shadow-color-hover)
     .candy-#{$name}
@@ -39,6 +49,6 @@
         font-size: 16px
         color: $text-color !important
 
-        &.active:hover
+        &.candy-active:hover
             box-shadow: 0px 18px 20px 2px $shadow-color-hover
         
