@@ -1,4 +1,4 @@
-> Latest version 0.9.0
+> Latest version 0.9.1
 
 ## Demo
 You can find samples [here](https://rmanaf.github.io/candy-btn/)

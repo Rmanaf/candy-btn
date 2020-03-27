@@ -20,3 +20,27 @@
 
 // candy-cream
 @include candy-set("cream" , white  , #ffc48a    , #ff5888   , rgba(255, 89, 0, 0.25) , rgba(255, 89, 0, 0.17));
+
+// candy-forest
+@include candy-set("forest" , white  , #399983    , #2b4d59   , rgba(6, 115, 16, 0.25) , rgba(6, 115, 16, 0.17));
+
+// candy-leaf
+@include candy-set("leaf" , white  , #ffdc7c    , #399983   , rgba(24, 183, 39, 0.25) , rgba(24, 183, 39, 0.17));
+
+// candy-yolk
+@include candy-set("yolk" , white  , #ffdc7c    , #ffaa67   , rgba(255, 167, 0, 0.25) , rgba(255, 167, 0, 0.17));
+
+// candy-dawn
+@include candy-set("dawn" , white  , #da674a    , #2b4d59   , rgba(88, 56, 15, 0.25) , rgba(88, 56, 15, 0.17));
+
+// candy-orange
+@include candy-set("orange" , white  , #f2d16d    , #d95a41   , rgba(255, 132, 0, 0.42) , rgba(255, 132, 0, 0.25));
+
+// candy-crimson
+@include candy-set("crimson" , white  , #c02641    , #4d1f31   , rgba(255, 0, 0, 0.25) , rgba(255, 0, 0, 0.17));
+
+// candy-night
+@include candy-set("night" , white  , #597c80    , #4d1f31   , rgba(27, 0, 255, 0.25) , rgba(27, 0, 255, 0.17));
+
+// candy-neon
+@include candy-set("neon" , white  , #4bbecc    , #e00b5e   , rgba(157, 0, 255, 0.25) , rgba(157, 0, 255, 0.17));
