@@ -1,0 +1,286 @@
+/*!
+ * Candy Buttons v0.9.2 (https://rmanaf.github.io/candy-btn/)
+ * Licensed under MIT (https://github.com/Rmanaf/candy-btn/blob/master/LICENSE)
+ */
+.candy-btn {
+  font-size: 1rem;
+  background: #ccc;
+  color: black !important;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  border-radius: 40px;
+  text-align: center;
+  padding: 8px 25px;
+  text-decoration: none;
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+
+.candy-btn:disabled {
+  background: #ccc !important;
+}
+
+.candy-btn.candy-small {
+  line-height: 15px;
+}
+
+.candy-btn.candy-medium {
+  line-height: 30px;
+}
+
+.candy-btn.candy-large {
+  line-height: 40px;
+}
+
+.candy-btn.candy-dark {
+  background: #333;
+  color: white !important;
+}
+
+.candy-btn.candy-dark.candy-active:hover {
+  color: white !important;
+}
+
+.candy-btn.candy-active {
+  -webkit-transition: text-shadow .2s ease-out .1s, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out;
+  transition: text-shadow .2s ease-out .1s, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out;
+  transition: box-shadow .2s ease-out, transform .2s ease-out, text-shadow .2s ease-out .1s;
+  transition: box-shadow .2s ease-out, transform .2s ease-out, text-shadow .2s ease-out .1s, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out;
+}
+
+.candy-btn.candy-active:hover {
+  text-decoration: none;
+  -webkit-transform: translate(0, -3px);
+          transform: translate(0, -3px);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.candy-transparent {
+  background: transparent !important;
+}
+
+.candy-light {
+  background: white !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, white), color-stop(100%, #e8e8e8)) !important;
+  background: linear-gradient(135deg, white 0%, #e8e8e8 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='#e8e8e8', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(255, 255, 255, 0.25);
+  color: #333 !important;
+}
+
+.candy-light.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(255, 255, 255, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(255, 255, 255, 0.17);
+}
+
+.candy-pink {
+  background: #af64d4 !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #af64d4), color-stop(100%, #e64390)) !important;
+  background: linear-gradient(135deg, #af64d4 0%, #e64390 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af64d4', endColorstr='#e64390', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(214, 0, 255, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(214, 0, 255, 0.25);
+  color: white !important;
+}
+
+.candy-pink.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(214, 0, 255, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(214, 0, 255, 0.17);
+}
+
+.candy-ocean {
+  background: #44ed7f !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #44ed7f), color-stop(100%, #103bff)) !important;
+  background: linear-gradient(135deg, #44ed7f 0%, #103bff 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44ed7f', endColorstr='#103bff', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(0, 104, 255, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(0, 104, 255, 0.25);
+  color: white !important;
+}
+
+.candy-ocean.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(0, 104, 255, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(0, 104, 255, 0.17);
+}
+
+.candy-purple {
+  background: #00d3be !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #00d3be), color-stop(100%, #e100ff)) !important;
+  background: linear-gradient(135deg, #00d3be 0%, #e100ff 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d3be', endColorstr='#e100ff', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(15, 115, 234, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(15, 115, 234, 0.25);
+  color: white !important;
+}
+
+.candy-purple.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(15, 115, 234, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(15, 115, 234, 0.17);
+}
+
+.candy-sunset {
+  background: #ffb227 !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffb227), color-stop(100%, #ff58d5)) !important;
+  background: linear-gradient(135deg, #ffb227 0%, #ff58d5 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb227', endColorstr='#ff58d5', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(255, 89, 0, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(255, 89, 0, 0.25);
+  color: white !important;
+}
+
+.candy-sunset.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(255, 89, 0, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(255, 89, 0, 0.17);
+}
+
+.candy-green {
+  background: #27ff4a !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #27ff4a), color-stop(100%, #28a745)) !important;
+  background: linear-gradient(135deg, #27ff4a 0%, #28a745 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27ff4a', endColorstr='#28a745', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(0, 255, 24, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(0, 255, 24, 0.25);
+  color: white !important;
+}
+
+.candy-green.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(0, 255, 24, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(0, 255, 24, 0.17);
+}
+
+.candy-cream {
+  background: #ffc48a !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffc48a), color-stop(100%, #ff5888)) !important;
+  background: linear-gradient(135deg, #ffc48a 0%, #ff5888 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc48a', endColorstr='#ff5888', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(255, 89, 0, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(255, 89, 0, 0.25);
+  color: white !important;
+}
+
+.candy-cream.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(255, 89, 0, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(255, 89, 0, 0.17);
+}
+
+.candy-forest {
+  background: #399983 !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #399983), color-stop(100%, #2b4d59)) !important;
+  background: linear-gradient(135deg, #399983 0%, #2b4d59 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#399983', endColorstr='#2b4d59', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(6, 115, 16, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(6, 115, 16, 0.25);
+  color: white !important;
+}
+
+.candy-forest.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(6, 115, 16, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(6, 115, 16, 0.17);
+}
+
+.candy-leaf {
+  background: #ffdc7c !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffdc7c), color-stop(100%, #399983)) !important;
+  background: linear-gradient(135deg, #ffdc7c 0%, #399983 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdc7c', endColorstr='#399983', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(24, 183, 39, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(24, 183, 39, 0.25);
+  color: white !important;
+}
+
+.candy-leaf.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(24, 183, 39, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(24, 183, 39, 0.17);
+}
+
+.candy-yolk {
+  background: #ffdc7c !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #ffdc7c), color-stop(100%, #ffaa67)) !important;
+  background: linear-gradient(135deg, #ffdc7c 0%, #ffaa67 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdc7c', endColorstr='#ffaa67', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(255, 167, 0, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(255, 167, 0, 0.25);
+  color: white !important;
+}
+
+.candy-yolk.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(255, 167, 0, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(255, 167, 0, 0.17);
+}
+
+.candy-dawn {
+  background: #da674a !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #da674a), color-stop(100%, #2b4d59)) !important;
+  background: linear-gradient(135deg, #da674a 0%, #2b4d59 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da674a', endColorstr='#2b4d59', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(88, 56, 15, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(88, 56, 15, 0.25);
+  color: white !important;
+}
+
+.candy-dawn.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(88, 56, 15, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(88, 56, 15, 0.17);
+}
+
+.candy-orange {
+  background: #f2d16d !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #f2d16d), color-stop(100%, #d95a41)) !important;
+  background: linear-gradient(135deg, #f2d16d 0%, #d95a41 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2d16d', endColorstr='#d95a41', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(255, 132, 0, 0.42);
+          box-shadow: 0px 10px 15px 2px rgba(255, 132, 0, 0.42);
+  color: white !important;
+}
+
+.candy-orange.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(255, 132, 0, 0.25);
+          box-shadow: 0px 18px 20px 2px rgba(255, 132, 0, 0.25);
+}
+
+.candy-crimson {
+  background: #c02641 !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #c02641), color-stop(100%, #4d1f31)) !important;
+  background: linear-gradient(135deg, #c02641 0%, #4d1f31 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c02641', endColorstr='#4d1f31', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(255, 0, 0, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(255, 0, 0, 0.25);
+  color: white !important;
+}
+
+.candy-crimson.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(255, 0, 0, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(255, 0, 0, 0.17);
+}
+
+.candy-night {
+  background: #597c80 !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #597c80), color-stop(100%, #4d1f31)) !important;
+  background: linear-gradient(135deg, #597c80 0%, #4d1f31 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#597c80', endColorstr='#4d1f31', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(27, 0, 255, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(27, 0, 255, 0.25);
+  color: white !important;
+}
+
+.candy-night.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(27, 0, 255, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(27, 0, 255, 0.17);
+}
+
+.candy-neon {
+  background: #4bbecc !important;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #4bbecc), color-stop(100%, #e00b5e)) !important;
+  background: linear-gradient(135deg, #4bbecc 0%, #e00b5e 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4bbecc', endColorstr='#e00b5e', GradientType=1 ) !important;
+  -webkit-box-shadow: 0px 10px 15px 2px rgba(157, 0, 255, 0.25);
+          box-shadow: 0px 10px 15px 2px rgba(157, 0, 255, 0.25);
+  color: white !important;
+}
+
+.candy-neon.candy-active:hover {
+  -webkit-box-shadow: 0px 18px 20px 2px rgba(157, 0, 255, 0.17);
+          box-shadow: 0px 18px 20px 2px rgba(157, 0, 255, 0.17);
+}
+/*# sourceMappingURL=candy-btn.css.map */

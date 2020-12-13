@@ -1,11 +1,11 @@
-> Latest version 0.9.1
+> Latest version 0.9.2
 
 ## Demo
 You can find samples [here](https://rmanaf.github.io/candy-btn/)
 
 ## Usage
 
-To use candy button in your website, simply drop the stylesheet into your document's , and add the class candy-btn to an element, along with any of the color names.
+To use candy buttons in your website, simply drop the stylesheet into your document's &lt;head&gt;, and add the class "candy-btn" to an element, along with any of the color names.
 
 
 ```html

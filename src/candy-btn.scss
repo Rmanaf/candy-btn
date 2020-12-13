@@ -1,7 +1,15 @@
+/*!
+ * Candy Buttons v0.9.2 (https://rmanaf.github.io/candy-btn/)
+ * Licensed under MIT (https://github.com/Rmanaf/candy-btn/blob/master/LICENSE)
+ */
+
 @import "./candy-btn-base.sass";
 
-// candy-base
-@include candy-base();
+// candy-btn-base
+@include candy-btn-base();
+
+// candy-light
+@include candy-set("light" , #333 , white , #e8e8e8 , rgba(255, 255, 255, 0.25) , rgba(255, 255, 255, 0.17));
 
 // candy-pink
 @include candy-set("pink" , white , #af64d4 , #e64390 , rgba(214, 0, 255, 0.25) , rgba(214, 0, 255, 0.17));

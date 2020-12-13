@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Candy Button Demo</title>
+    <title>Candy Buttons - Demo</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
@@ -13,9 +13,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Baloo+Bhai|Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Baloo+Bhai|Titillium+Web&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="./latest/candy-btn.min.css">
+    <link rel="stylesheet" href="./latest/candy-card.min.css">
 
     <link rel="stylesheet" href="./style.css">
 
@@ -26,164 +28,271 @@
     <div class="container mb-5">
         <div class="header mt-4">
             <div class="bg">
-                <a href="https://github.com/Rmanaf/candy-btn"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+                <a href="https://github.com/Rmanaf/candy-btn"><img width="149" height="149"
+                        src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png?resize=149%2C149"
+                        class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
             </div>
             <h1 class="animated fadeInUp">Candy Buttons</h1>
-            <a href="#" class="candy-btn candy-dark candy-active candy-large animated fadeInDown">
-                Collection of Beautiful Buttons
+            <a href="https://github.com/Rmanaf/"
+                class="candy-btn candy-dark candy-active candy-large animated fadeInDown">
+                By @Rmanaf
             </a>
         </div>
 
-        <div class="row">
+        <div class="row my-3">
+            <div class="col-12">
+                <div class="candy-card">
+                    <h1 class="candy-card_header">Usage</h1>
+                    <div class="candy-card_content">
+                        To use candy buttons in your website, simply drop the stylesheet into your document's
 
-            <a href="#" class="candy-btn">
-                Default
-            </a>
-            <a href="#" class="candy-btn candy-active">
-                Default + Active
-            </a>
+                        &lt;head&gt;, and add the class "candy-btn" to an element, along with any of the color names.
+                        <br>
+                        <code>
+                &lt;head&gt;
+                <br>
+                &nbsp;&nbsp;&lt;link rel=&quot;stylesheet&quot; href=&quot;https://rmanaf.github.io/candy-btn/latest/candy-btn.min.css&quot;&gt;
+                <br>
+                &lt;/head&gt;
+            </code>
+            <p class="my-2">
+                In the body:
+            </p>
+            <code>
+                &lt;a href=&quot;#&quot; class=&quot;candy-btn candy-purple candy-active&quot;&gt;Button&lt;/a&gt;
+            </code>
+            <p class="my-4">Result:</p>
+            <a href="#" class="candy-btn candy-purple candy-active mx-0 my-3">Button</a>
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <a href="#" class="candy-btn candy-purple candy-active mx-0 my-3 d-flex justify-content-center">
+                        <i class="material-icons mr-2"> loupe </i>
+                        Button
+                    </a>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            <a href="#" class="candy-btn candy-dark">
-                Default + Dark
-            </a>
-            <a href="#" class="candy-btn candy-active candy-dark">
-                Default + Dark + Active
-            </a>
-
-            <a href="#" class="candy-btn candy-pink">
-                Pink
-            </a>
-            <a href="#" class="candy-btn candy-pink candy-active">
-                Pink + Active
-            </a>
-
-            <a href="#" class="candy-btn candy-purple">
-                Purple
-            </a>
-            <a href="#" class="candy-btn candy-purple candy-active">
-                Purple + Active
-            </a>
-
-            <a href="#" class="candy-btn candy-ocean">
-                Ocean
-            </a>
-            <a href="#" class="candy-btn candy-ocean candy-active">
-                Ocean Active
-            </a>
-
-            <a href="#" class="candy-btn candy-sunset">
-                Sunset
-            </a>
-            <a href="#" class="candy-btn candy-sunset candy-active">
-                Sunset + Active
-            </a>
-
-            <a href="#" class="candy-btn candy-green">
-                Green
-            </a>
-            <a href="#" class="candy-btn candy-green candy-active">
-                Green + Active
-            </a>
-
-            <a href="#" class="candy-btn candy-cream">
-                Cream
-            </a>
-            <a href="#" class="candy-btn candy-cream candy-active">
-                Cream + Active
-            </a>
-
-            <a href="#" class="candy-btn candy-forest">
-                Forest
-            </a>
-            <a href="#" class="candy-btn candy-forest candy-active">
-                Forest + Active
-            </a>
-
-            <a href="#" class="candy-btn candy-leaf">
-                Leaf
-            </a>
-            <a href="#" class="candy-btn candy-leaf candy-active">
-                Leaf + Active
-            </a>
-
-            
-            <a href="#" class="candy-btn candy-orange">
-                Orange
-            </a>
-            <a href="#" class="candy-btn candy-orange candy-active">
-                Orange + Active
-            </a>
-
-
-            <a href="#" class="candy-btn candy-yolk">
-                Yolk
-            </a>
-            <a href="#" class="candy-btn candy-yolk candy-active">
-                Yolk + Active
-            </a>
-
-
-
-            <a href="#" class="candy-btn candy-dawn">
-                Dawn
-            </a>
-            <a href="#" class="candy-btn candy-dawn candy-active">
-                Dawn + Active
-            </a>
-
-            
-
-            <a href="#" class="candy-btn candy-crimson">
-                Crimson
-            </a>
-            <a href="#" class="candy-btn candy-crimson candy-active">
-                Crimson + Active
-            </a>
-
-            <a href="#" class="candy-btn candy-night">
-                Night
-            </a>
-            <a href="#" class="candy-btn candy-night candy-active">
-                Night + Active
-            </a>
-
-            <a href="#" class="candy-btn candy-neon">
-                Neon
-            </a>
-            <a href="#" class="candy-btn candy-neon candy-active">
-                Neon + Active
-            </a>
+        <div class="row my-3">
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Pink
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-pink">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-pink candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Purple
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-purple">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-purple candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Ocean
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-ocean">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-ocean candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Sunset
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-sunset">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-sunset candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Green
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-green">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-green candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Cream
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-cream">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-cream candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Forest
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-forest">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-forest candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Leaf
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-leaf">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-leaf candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Orange
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-orange">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-orange candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Dawn
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-dawn">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-dawn candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Crimson
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-crimson">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-crimson candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Yolk
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-yolk">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-yolk candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Night
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-night">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-night candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 my-2">
+                <div class="candy-card candy-transparent candy-border">
+                    <h1 class="candy-card_header">
+                        Neon
+                    </h1>
+                    <div class="candy-card_actions candy-start">
+                        <a href="#" class="candy-btn candy-neon">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-neon candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="row my-2">
             <div class="col-12">
-                <h1>Usage</h1>
-                To use candy button in your website, simply drop the stylesheet into your document's <head>, and add the class candy-btn to an element, along with any of the color names.
-                <br>
 
-                <code>
-                    &lt;head&gt;
-                    <br>
-                    &nbsp;&lt;link rel=&quot;stylesheet&quot; href=&quot;https://rmanaf.github.io/candy-btn/latest/candy-btn.min.css&quot;&gt;
-                    <br>
-                    &lt;/head&gt;
-                </code>
-                
-                <h3 class="my-5">Sample</h2>
-                <code>
-                    &lt;a href=&quot;#&quot; class=&quot;candy-btn candy-purple candy-active&quot;&gt;Button&lt;/a&gt;
-                </code>
-                <h3 class="my-5">Result</h2>
-                <a href="#" class="candy-btn candy-purple candy-active mx-0 my-3">Button</a>
-                <div class="row">
-                    <div class="col-12 col-sm-3">
-                        <a href="#" class="candy-btn candy-purple candy-active mx-0 my-3 d-flex justify-content-center">
-                            <i class="material-icons mr-2"> loupe </i>
-                            Button
-                        </a>
-                    </div>
-                </div>
-                <h3 class="my-5">Sizing</h3>
+                <h3 class="my-5">Sizing:</h3>
                 <div class="row">
                     <div class="col-12 col-sm-3">
                         <a href="#" class="candy-btn candy-small candy-active mx-0 my-3 d-flex justify-content-center">
@@ -208,10 +317,99 @@
                 </div>
 
             </div>
-            
+
         </div>
 
-        
+        <div class="row my-3">
+            <div class="col-12">
+                <h3 class="my-5">Card:</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="candy-card my-2">
+                    <ul class="candy-card_tags">
+                        <li>
+                            Candy Button
+                        </li>
+                        <li>
+                            Candy Card
+                        </li>
+                    </ul>
+                    <h1 class="candy-card_header">
+                        Default
+                    </h1>
+                    <div class="candy-card_content">
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+                            industries for previewing layouts and visual mockups.</p>
+                    </div>
+                    <div class="candy-card_actions candy-grow candy-center">
+                        <a href="#" class="candy-btn">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-active">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="candy-card candy-dark my-2">
+                    <ul class="candy-card_tags">
+                        <li>
+                            Candy Button
+                        </li>
+                        <li>
+                            Candy Card
+                        </li>
+                        <li>
+                            Dark
+                        </li>
+                    </ul>
+                    <h1 class="candy-card_header">
+                        Dark
+                    </h1>
+                    <div class="candy-card_content">
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+                            industries for previewing layouts and visual mockups.</p>
+                    </div>
+                    <div class="candy-card_actions candy-grow candy-center">
+                        <a href="#" class="candy-btn candy-dark">
+                            Normal
+                        </a>
+                        <a href="#" class="candy-btn candy-active candy-dark">
+                            Active
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="candy-card candy-pink my-2">
+                    <ul class="candy-card_tags">
+                        <li>
+                            Candy Button
+                        </li>
+                        <li>
+                            Candy Card
+                        </li>
+                    </ul>
+                    <h1 class="candy-card_header">
+                        Pink
+                    </h1>
+                    <div class="candy-card_content">
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+                            industries for previewing layouts and visual mockups.</p>
+                    </div>
+                    <div class="candy-card_actions">
+                        <a href="#" class="candy-btn candy-light candy-active">
+                            Button
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
+
 </html>

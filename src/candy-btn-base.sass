@@ -1,5 +1,6 @@
-@mixin candy-base()
+@mixin candy-btn-base()
     .candy-btn
+        font-size: 1rem
         background: #ccc
         color: black !important
         text-shadow: 2px 2px 5px rgba(0,0,0,.6)
@@ -36,9 +37,12 @@
                 text-decoration: none
                 transform: translate(0,-3px)
                 text-shadow: 2px 2px 8px rgba(0,0,0,.6)
-        
+
+    .candy-transparent
+        background: transparent!important
+
 @mixin candy-set($name , $text-color , $first-color , $second-color , $shadow-color , $shadow-color-hover)
-    .candy-#{$name}
+    &.candy-#{$name}
         background: $first-color !important
         background: -moz-linear-gradient(-45deg, $first-color 0%, $second-color 100%) !important
         background: -webkit-gradient(left top, right bottom, color-stop(0%, $first-color), color-stop(100%, $second-color)) !important
@@ -48,7 +52,6 @@
         background: linear-gradient(135deg, $first-color 0%, $second-color 100%) !important
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$first-color}', endColorstr='#{$second-color}', GradientType=1 ) !important
         box-shadow: 0px 10px 15px 2px $shadow-color
-        font-size: 16px
         color: $text-color !important
 
         &.candy-active:hover
