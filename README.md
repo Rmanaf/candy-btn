@@ -1,5 +1,3 @@
-> Latest version 0.9.2
-
 ## Demo
 You can find samples [here](https://rmanaf.github.io/candy-btn/)
 
@@ -10,7 +8,7 @@ To use candy buttons in your website, simply drop the stylesheet into your docum
 
 ```html
 <head>
-    <link rel="stylesheet" href="https://rmanaf.github.io/candy-btn/latest/candy-btn.min.css">
+    <link rel="stylesheet" href="https://rmanaf.github.io/candy-btn/dist/candy-btn.min.css">
 </head>
 ```
 
