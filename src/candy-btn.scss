@@ -1,5 +1,5 @@
 /*!
- * Candy Buttons v0.9.2 (https://rmanaf.github.io/candy-btn/)
+ * Candy Buttons v0.9.3 (https://rmanaf.github.io/candy-btn/)
  * Licensed under MIT (https://github.com/Rmanaf/candy-btn/blob/master/LICENSE)
  */
 
@@ -9,46 +9,49 @@
 @include candy-btn-base();
 
 // candy-light
-@include candy-set("light" , #333 , white , #e8e8e8 , rgba(255, 255, 255, 0.25) , rgba(255, 255, 255, 0.17));
+@include candy-set("light" , #333 , white , #f3f3f3 , #e8e8e8 , rgba(255, 255, 255, 0.3) , rgba(255, 255, 255, 0.17));
 
 // candy-pink
-@include candy-set("pink" , white , #af64d4 , #e64390 , rgba(214, 0, 255, 0.25) , rgba(214, 0, 255, 0.17));
+@include candy-set("pink" , white , #af64d4 , #cb5454 , #e64390 , rgba(214, 0, 255, 0.3) , rgba(214, 0, 255, 0.17));
 
 // candy-ocean
-@include candy-set("ocean" , white  , #44ed7f , #103bff , rgba(0, 104, 255, 0.25) , rgba(0, 104, 255, 0.17));
+@include candy-set("ocean" , white  , #44ed7f , #38c9e4 , #103bff , rgba(0, 104, 255, 0.3) , rgba(0, 104, 255, 0.17));
 
 // candy-purple
-@include candy-set("purple" , white  , #00d3be , #e100ff , rgba(15, 115, 234, 0.25) , rgba(15, 115, 234, 0.17));
+@include candy-set("purple" , white  , #00d3be , #716adf , #e100ff , rgba(15, 115, 234, 0.3) , rgba(15, 115, 234, 0.17));
 
-// candy-sunset
-@include candy-set("sunset" , white  , #ffb227 , #ff58d5 , rgba(255, 89, 0, 0.25) , rgba(255, 89, 0, 0.17));
+// candy-grass
+@include candy-set("grass" , white  , #dcff27 , #94d73c , #4caf50 , rgba(34, 255, 0, 0.3) , rgba(34 ,255 ,0, 0.17));
 
 // candy-green
-@include candy-set("green" , white  , #27ff4a  , #28a745  , rgba(0, 255, 24, 0.25) , rgba(0, 255, 24, 0.17));
+@include candy-set("green" , white  , #27ff4a , #28d247  , #28a745  , rgba(0, 255, 24, 0.3) , rgba(0, 255, 24, 0.17));
 
 // candy-cream
-@include candy-set("cream" , white  , #ffc48a    , #ff5888   , rgba(255, 89, 0, 0.25) , rgba(255, 89, 0, 0.17));
+@include candy-set("cream" , white  , #ffc48a  , #ff8d89 , #ff5888   , rgba(255, 89, 0, 0.3) , rgba(255, 89, 0, 0.17));
 
 // candy-forest
-@include candy-set("forest" , white  , #399983    , #2b4d59   , rgba(6, 115, 16, 0.25) , rgba(6, 115, 16, 0.17));
+@include candy-set("forest" , white  , #399983  , #32736e  , #2b4d59   , rgba(6, 115, 16, 0.3) , rgba(6, 115, 16, 0.17));
 
 // candy-leaf
-@include candy-set("leaf" , white  , #ffdc7c    , #399983   , rgba(24, 183, 39, 0.25) , rgba(24, 183, 39, 0.17));
+@include candy-set("leaf" , white  , #ffdc7c  , #9ebb7f  , #399983   , rgba(24, 183, 39, 0.3) , rgba(24, 183, 39, 0.17));
 
 // candy-yolk
-@include candy-set("yolk" , white  , #ffdc7c    , #ffaa67   , rgba(255, 167, 0, 0.25) , rgba(255, 167, 0, 0.17));
+@include candy-set("yolk" , white  , #ffdc7c  , #ffc371  , #ffaa67   , rgba(255, 167, 0, 0.3) , rgba(255, 167, 0, 0.17));
 
 // candy-dawn
-@include candy-set("dawn" , white  , #da674a    , #2b4d59   , rgba(88, 56, 15, 0.25) , rgba(88, 56, 15, 0.17));
+@include candy-set("dawn" , white  , #da674a  , #815a52  , #2b4d59   , rgba(88, 56, 15, 0.3) , rgba(88, 56, 15, 0.17));
 
 // candy-orange
-@include candy-set("orange" , white  , #f2d16d    , #d95a41   , rgba(255, 132, 0, 0.42) , rgba(255, 132, 0, 0.25));
+@include candy-set("orange" , white  , #f2d16d   , #e59457 , #d95a41   , rgba(255, 132, 0, 0.3) , rgba(255, 132, 0, 0.17));
 
 // candy-crimson
-@include candy-set("crimson" , white  , #c02641    , #4d1f31   , rgba(255, 0, 0, 0.25) , rgba(255, 0, 0, 0.17));
+@include candy-set("crimson" , white  , #c02641  , #852239  , #4d1f31   , rgba(255, 0, 0, 0.3) , rgba(255, 0, 0, 0.17));
 
 // candy-night
-@include candy-set("night" , white  , #597c80    , #4d1f31   , rgba(27, 0, 255, 0.25) , rgba(27, 0, 255, 0.17));
+@include candy-set("night" , white  , #597c80  , #534e59  , #4d1f31   , rgba(27, 0, 255, 0.3) , rgba(27, 0, 255, 0.17));
 
 // candy-neon
-@include candy-set("neon" , white  , #4bbecc    , #e00b5e   , rgba(157, 0, 255, 0.25) , rgba(157, 0, 255, 0.17));
+@include candy-set("neon" , white  , #4bbecc   , #976394 , #e00b5e   , rgba(157, 0, 255, 0.3) , rgba(157, 0, 255, 0.17));
+
+// candy-sky
+@include candy-set("sky" , white  , #00fff8   , #00bbfc , #0079ff   , rgba(0 ,191, 255, 0.3) , rgba(0 ,191, 255, 0.17));

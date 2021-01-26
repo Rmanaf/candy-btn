@@ -1,19 +1,22 @@
 @mixin candy-btn-base()
     .candy-btn
+        color: black !important
         font-size: 1rem
         background: #ccc
-        color: black !important
-        text-shadow: 2px 2px 5px rgba(0,0,0,.6)
         border-radius: 40px
-        text-align: center
         padding: 8px 25px
-        text-decoration: none
         vertical-align: middle
         border: none
         outline: none
+
+        &:not(.candy-plain)
+            text-align: center
+            text-decoration: none !important
+            text-shadow: 2px 2px 5px rgba(0,0,0,.6)
         
         &:disabled
-            background: #ccc !important
+            color: #ffffff94!important
+            text-shadow: 2px 2px 8px rgba(0,0,0,.6)
 
         &.candy-small
             line-height: 15px
@@ -31,29 +34,51 @@
             &.candy-active:hover
                 color: white !important
             
-        &.candy-active 
-            transition: box-shadow .2s ease-out, transform .2s ease-out, text-shadow .2s ease-out .1s
-            &:hover
-                text-decoration: none
-                transform: translate(0,-3px)
-                text-shadow: 2px 2px 8px rgba(0,0,0,.6)
+        &:not(.candy-flat):not(:disabled)
+            &.candy-active 
+                transition: box-shadow .2s ease-out, transform .2s ease-out, text-shadow .2s ease-out .1s
+                
+                &:hover
+                    transform: translateY(-3px)
+                    text-shadow: 2px 2px 8px rgba(0,0,0,.6)
+                
 
     .candy-transparent
         background: transparent!important
 
-@mixin candy-set($name , $text-color , $first-color , $second-color , $shadow-color , $shadow-color-hover)
+@mixin candy-set($name , $text-color , $first-color , $second-color , $third-color, $shadow-color , $shadow-color-hover)
     &.candy-#{$name}
-        background: $first-color !important
-        background: -moz-linear-gradient(-45deg, $first-color 0%, $second-color 100%) !important
-        background: -webkit-gradient(left top, right bottom, color-stop(0%, $first-color), color-stop(100%, $second-color)) !important
-        background: -webkit-linear-gradient(-45deg, $first-color 0%, $second-color 100%) !important
-        background: -o-linear-gradient(-45deg, $first-color 0%, $second-color 100%) !important
-        background: -ms-linear-gradient(-45deg, $first-color 0%, $second-color 100%) !important
-        background: linear-gradient(135deg, $first-color 0%, $second-color 100%) !important
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$first-color}', endColorstr='#{$second-color}', GradientType=1 ) !important
-        box-shadow: 0px 10px 15px 2px $shadow-color
         color: $text-color !important
+        background: $first-color !important
+        background: -moz-linear-gradient(-45deg, $first-color 0%, $third-color 100%) !important
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, $first-color), color-stop(100%, $third-color)) !important
+        background: -webkit-linear-gradient(-45deg, $first-color 0%, $third-color 100%) !important
+        background: -o-linear-gradient(-45deg, $first-color 0%, $third-color 100%) !important
+        background: -ms-linear-gradient(-45deg, $first-color 0%, $third-color 100%) !important
+        background: linear-gradient(135deg, $first-color 0%, $third-color 100%) !important
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$first-color}', endColorstr='#{$third-color}', GradientType=1 ) !important
+        
+        &:disabled,
+        &.candy-soft
+            background: $first-color !important
+            background: -moz-linear-gradient(-45deg, $first-color 0%, $second-color 100%) !important
+            background: -webkit-gradient(left top, right bottom, color-stop(0%, $first-color), color-stop(100%, $second-color)) !important
+            background: -webkit-linear-gradient(-45deg, $first-color 0%, $second-color 100%) !important
+            background: -o-linear-gradient(-45deg, $first-color 0%, $second-color 100%) !important
+            background: -ms-linear-gradient(-45deg, $first-color 0%, $second-color 100%) !important
+            background: linear-gradient(135deg, $first-color 0%, $second-color 100%) !important
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$first-color}', endColorstr='#{$second-color}', GradientType=1 ) !important
+ 
+        &:not(.candy-flat):not(:disabled)
+            box-shadow: 0px 8px 10px -2px $shadow-color
 
-        &.candy-active:hover
-            box-shadow: 0px 18px 20px 2px $shadow-color-hover
+            &.candy-active
+                box-shadow: 0px 10px 15px 2px $shadow-color
+  
+            &.candy-active:hover
+                box-shadow: 0px 18px 20px 2px $shadow-color-hover
+                
+   
+             
+
         
